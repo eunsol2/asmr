@@ -28,7 +28,7 @@
                 android:layout_width="510dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#333"
+                android:background="#000"
                 android:orientation="vertical">
                 <TextView
                     android:id="@+id/text1"
@@ -78,7 +78,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:paddingTop="10dp"
-                android:background="#333"
+                android:background="#000"
                 android:orientation="vertical">
                 <Button
                     android:id="@+id/button1"
