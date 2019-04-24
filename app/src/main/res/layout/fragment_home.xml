@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#373462">
+            android:background="@drawable/home_logo">
 
         </LinearLayout>
 
@@ -24,51 +24,53 @@
             android:layout_weight="1"
             android:background="#333"
             android:orientation="horizontal">
+
             <LinearLayout
-                android:layout_width="510dp"
+                android:layout_width="500dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#222"
                 android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
                     android:text="손가락이나 여러 도구로 물체를 두드리며 내는 소리"
-                    android:textSize="16dp"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"
+                    android:textSize="16dp" />
 
                 <TextView
                     android:id="@+id/text2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
                     android:text="속삭이듯 조용하게 말하는 소리"
-                    android:textSize="16dp"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"
+                    android:textSize="16dp" />
 
                 <TextView
                     android:id="@+id/text3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="60dp"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
                     android:text="자장가를 불러주듯 다정한 상황극"
-                    android:textSize="16dp"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"
+                    android:textSize="16dp" />
 
                 <TextView
                     android:id="@+id/text4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="60dp"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
                     android:text="입으로 내는 소리"
-                    android:textSize="16dp"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"
+                    android:textSize="16dp" />
 
 
             </LinearLayout>
@@ -77,36 +79,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:paddingTop="10dp"
                 android:background="#222"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
                 <Button
                     android:id="@+id/button1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_margin="25dp"
                     android:text="Tapping" />
+
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_margin="15dp"
                     android:text="Whisper" />
+
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_margin="15dp"
                     android:text="Role-Playing" />
+
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_margin="15dp"
                     android:text="Mouth-Sound" />
 
             </LinearLayout>
