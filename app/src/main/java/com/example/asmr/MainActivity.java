@@ -18,8 +18,15 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
+                    //bundle 데이터전달
+                    Home home = new Home();
+                    Bundle bundle = new Bundle();
+                    bundle.putString("name", "홍길동");
+                    bundle.putInt("age", 20);
+                    home.setArguments(bundle);
+
                     getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.content, new Home())
+                            .replace(R.id.content, home)
                             .commit();
                     return true;
                 case R.id.navigation_keyboard_voice:
