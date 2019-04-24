@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="바바바"
+                android:text="바바"
                 android:textColor="#fff"/>
         </LinearLayout>
     </LinearLayout>
