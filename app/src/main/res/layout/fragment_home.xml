@@ -29,7 +29,7 @@
                 android:layout_width="500dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#222"
+                android:background="#333"
                 android:orientation="vertical">
 
                 <TextView
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#222"
+                android:background="#333"
                 android:orientation="vertical"
                 android:paddingTop="10dp">
 
@@ -89,7 +89,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="25dp"
-                    android:text="Tapping" />
+                    android:text="Tapping"
+                    android:background="#373462"
+                    android:textColor="#fff"/>
 
                 <Button
                     android:id="@+id/button2"
@@ -97,7 +99,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="15dp"
-                    android:text="Whisper" />
+                    android:text="Whisper"
+                    android:background="#373462"
+                    android:textColor="#fff"/>
 
                 <Button
                     android:id="@+id/button3"
@@ -105,7 +109,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="15dp"
-                    android:text="Role-Playing" />
+                    android:text="Role-Playing"
+                    android:background="#373462"
+                    android:textColor="#fff"/>
 
                 <Button
                     android:id="@+id/button4"
@@ -113,7 +119,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="15dp"
-                    android:text="Mouth-Sound" />
+                    android:text="Mouth-Sound"
+                    android:background="#373462"
+                    android:textColor="#fff"/>
 
             </LinearLayout>
 
