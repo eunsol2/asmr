@@ -5,6 +5,7 @@
 
 아이디어
 * ASMR 어플 - 예비명 : ★그루잠, here.hear, 도란도란
+![home_logo](https://user-images.githubusercontent.com/48500333/59329754-a05b6d80-8d2a-11e9-8b74-bd865bd1d39a.png)
 
 ***
 ## 구성요소
